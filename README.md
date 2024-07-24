@@ -25,6 +25,5 @@ El portal de acceso permite a los usuarios iniciar sesión utilizando sus creden
 ## Desarrollador
 
 Luciano E. Fontana
-
 - Email: lfontana@dsyr.com.ar
 - Website: https://lucianofontana.dev
