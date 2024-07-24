@@ -1,0 +1,114 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginForm {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fffffff1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    margin-right: 10px;
+    left: 30px;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  
+  .input {
+    padding-left: 0px; 
+    width: calc(100% - 40px);
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    padding-left: 40px; /* Ajusta el padding izquierdo */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  .CustomInput {
+    width: calc(100% - 20); 
+    height: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95rem; 
+    outline: none;
+    padding-left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .button {
+    width: 100%;
+    height: 40px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button:hover {
+    background-color: hsl(211, 100%, 35%);
+  }
+  
+  .customBody {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
