@@ -1,29 +1,23 @@
-# README #
+# Portal de Acceso - Next.js
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Este proyecto es un portal de acceso creado con Next.js que valida credenciales de usuario contra un web service. Dependiendo del dominio del usuario, se ejecuta uno de dos posibles servicios web.
 
-### What is this repository for? ###
+## Descripción del Proyecto
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+El portal de acceso permite a los usuarios iniciar sesión utilizando sus credenciales. El nombre de usuario debe estar en el formato `usuario@dominio`. El sistema valida estas credenciales contra un web service específico dependiendo del dominio del usuario.
 
-### How do I get set up? ###
+### Funcionalidades
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+- **Validación de credenciales**: Los usuarios pueden iniciar sesión utilizando su nombre de usuario y contraseña.
+- **Detección automática de IP**: La aplicación obtiene automáticamente la dirección IP del usuario.
+- **Interfaz de usuario moderna**: Utiliza SweetAlert2 para mostrar mensajes de éxito y error en un formato estilizado.
+- **Validación de dominio**: Dependiendo del dominio del usuario, se ejecuta un servicio web específico.
 
-### Contribution guidelines ###
+## Tecnologías Utilizadas
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+- Next.js
+- React
+- Axios
+- SweetAlert2
+- FontAwesome
+- CSS Modules
