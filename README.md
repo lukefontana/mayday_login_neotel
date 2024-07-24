@@ -23,8 +23,8 @@ El portal de acceso permite a los usuarios iniciar sesión utilizando sus creden
 - CSS Modules
 
 ## Desarrollador
-- Autor
-- Luciano E. Fontana
+
+Luciano E. Fontana
 
 - Email: lfontana@dsyr.com.ar
 - Website: https://lucianofontana.dev
