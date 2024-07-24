@@ -21,3 +21,10 @@ El portal de acceso permite a los usuarios iniciar sesión utilizando sus creden
 - SweetAlert2
 - FontAwesome
 - CSS Modules
+
+## Desarrollador
+Autor
+Luciano E. Fontana
+
+Email: lfontana@dsyr.com.ar
+Website: https://lucianofontana.dev
