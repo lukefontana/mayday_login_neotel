@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   if (userDomain === 'webkfc.neotelecd.com') {
     apiUrl = 'http://webkfc.neotelecd.com/neoapi/webservice.asmx/ExecuteTask03';
   } else {
-    apiUrl = 'TBD';
+    apiUrl = 'TBD'; //Falta listar el resto de los dominios.
   }
 
   try {
@@ -30,6 +30,7 @@ export default async function handler(req, res) {
     );
     res.status(200).json(response.data);
   } catch (error) {
+    //Trabajar en mejorar los mensajes de error por otros mas significativos.
     res.status(500).json({ success: false, message: 'Error al conectar con el servidor' });
   }
 }
