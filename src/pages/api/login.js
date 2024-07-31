@@ -30,6 +30,7 @@ export default async function handler(req, res) {
         }
       }
     );
+    console.log(response);
     res.status(200).json(response.data);
   } catch (error) {
     //Trabajar en mejorar los mensajes de error por otros mas significativos.

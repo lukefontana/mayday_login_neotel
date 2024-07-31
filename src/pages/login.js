@@ -98,7 +98,7 @@ const Login = () => {
       <div className={styles.loginContainer}>
         <div className={styles.loginForm}>
           <img className={styles.logo} src="/images/logo.png" alt="Logo" />
-          <h3 className={styles.title}>Portal de Acceso</h3>
+          <h3 className={styles.title}>Portal de Acceso Seguro</h3>
           <form onSubmit={handleSubmit}>
             <div className={styles.formGroup}>
               <div className={styles.inputGroup}>
