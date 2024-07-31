@@ -3,6 +3,7 @@ import { faUser, faLock, faNetworkWired  } from '@fortawesome/free-solid-svg-ico
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import '../styles/Login.module.css'; 
 import '../app/globals.css';
+export const runtime = 'experimental-edge';
 
 library.add(faUser, faLock); 
 
