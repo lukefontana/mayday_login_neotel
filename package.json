@@ -1,7 +1,6 @@
 {
   "name": "mayday-login",
   "version": "0.1.0",
-  "homepage": "/api/login",
   "private": true,
   "scripts": {
     "dev": "next dev",
