@@ -2,7 +2,7 @@
 import axios from 'axios';
 import qs from 'qs';
 
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 export default async function handler(req, res) {
   const { idTask, param1, param2, param3, userDomain } = req.body;
